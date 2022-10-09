@@ -1,0 +1,17 @@
+<A simple FizzBuzz program written in Tidal (.tide)>
+
+<Define main function for this program>
+Define Main: () -> {
+    <Loop from 1 - 100>
+    From 1 To 100 Step 1 Use I {
+        If I % 3 Is 0 Then {
+            Call Print Using "Fizz".
+        } Otherwise If I % 5 Is 0 Then {
+            Call Print Using "Buzz".
+        } Otherwise If I % 15 Is 0 Then {
+            Call Print Using "FizzBuzz".
+        } Otherwise {
+            Call Print Using I.
+        }
+    }
+}
